@@ -7,4 +7,5 @@ project ("expected_test_project")
 
 # Include sub-projects.
 add_subdirectory(external/expected)
+add_subdirectory(external/fmtlib)
 add_subdirectory ("expected_test_project")

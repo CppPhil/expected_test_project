@@ -9,4 +9,5 @@ add_executable (expected_test_project "main.cpp" )
 target_link_libraries(
 	expected_test_project
 	PRIVATE
-	tl::expected)
+	tl::expected
+	fmt::fmt)
